@@ -1,0 +1,13 @@
+
+.DemoMain {
+  position: relative;
+  width: 100%;
+  .searchPart{
+    padding-top: 15px;
+    width: 48%;
+    float: right;
+    .giphyData{
+      margin-top: 15px;
+    }
+  }
+}
