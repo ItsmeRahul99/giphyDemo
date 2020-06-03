@@ -16,10 +16,7 @@ export default () => {
   return (
     <div className="editorMain">
       <div ref={quillRef} />
-      <button onClick={async () => {
-            let result = await this.search();
-             this.setState({data: result})
-          }} className="btn">G</button>
+      <button className="btn">G</button>
     </div>
   );
 };
